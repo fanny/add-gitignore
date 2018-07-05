@@ -1,10 +1,16 @@
 # -*- coding: utf-8 -*-
 
+import json
 import requests
 import string
 
-
 BASE_URL = 'https://api.github.com'
+
+
+def write_file():
+    with open('.gitignore', 'w') as f:
+        json_string = json.dumps(get_template_by_language('HASKELL'))
+        f.write(json_string)
 
 
 def get_all_templates():
@@ -27,6 +33,6 @@ def get_template_by_language(language):
 
 
 if __name__ == '__main__':
-    print get_all_templates()
-    print get_template_by_language('HASKELL')
+    write_file()
+
 
