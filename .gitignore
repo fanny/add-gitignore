@@ -1,24 +1,52 @@
-{"source": "dist
-        \ndist-*
-        \ncabal-dev
-        \n*.o
-        \n*.hi
-        \n*.chi
-        \n*.chs.h
-        \n*.dyn_o
-        \n*.dyn_hi
-        \n.hpc
-        \n.hsenv
-        \n.cabal-sandbox/
-        \ncabal.sandbox.config
-        \n*.prof
-        \n*.aux
-        \n*.hp
-        \n*.eventlog
-        \n.stack-work/
-        \ncabal.project.local
-        \ncabal.project.local~
-        \n.HTF/
-        \n.ghc.environment.*
-        \n",
-"name": "Haskell"}
+# Prerequisites
+*.d
+
+# Object files
+*.o
+*.ko
+*.obj
+*.elf
+
+# Linker output
+*.ilk
+*.map
+*.exp
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Libraries
+*.lib
+*.a
+*.la
+*.lo
+
+# Shared objects (inc. Windows DLLs)
+*.dll
+*.so
+*.so.*
+*.dylib
+
+# Executables
+*.exe
+*.out
+*.app
+*.i*86
+*.x86_64
+*.hex
+
+# Debug files
+*.dSYM/
+*.su
+*.idb
+*.pdb
+
+# Kernel Module Compile Results
+*.mod*
+*.cmd
+.tmp_versions/
+modules.order
+Module.symvers
+Mkfile.old
+dkms.conf

@@ -8,7 +8,7 @@ BASE_URL = 'https://api.github.com'
 
 def write_file():
     with open('.gitignore', 'w') as f:
-        data = get_template_by_language('HASKELL')['source']
+        data = get_template_by_language('c')['source']
         f.write(data)
 
 
