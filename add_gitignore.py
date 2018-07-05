@@ -9,7 +9,7 @@ BASE_URL = 'https://api.github.com'
 
 def write_file():
     with open('.gitignore', 'w') as f:
-        json_string = json.dumps(get_template_by_language('HASKELL'))
+        json_string = get_template_by_language('HASKELL')['source']
         f.write(json_string)
 
 
@@ -17,7 +17,9 @@ def get_all_templates():
     """Get all gitignore templates available
         :return response: Json with templates
     """
-    r = requests.get('{baseurl}/gitignore/templates'.format(baseurl=BASE_URL))
+    url = '{baseurl}/gitignore/templates'.format(baseurl=BASE_URL)
+    headers = {'Accept': 'application/vnd.github.v3.raw+json'}
+    r = requests.get(url, headers)
     return r.json()
 
 
@@ -28,7 +30,9 @@ def get_template_by_language(language):
         :return response: Json with specified template
     """
     language = string.capwords(language)
-    r = requests.get('{baseurl}/gitignore/templates/{lang}'.format(baseurl=BASE_URL, lang=language))
+    url = '{baseurl}/gitignore/templates/{lang}'.format(baseurl=BASE_URL, lang=language)
+    headers = {'Accept': 'application/vnd.github.v3.raw+json'}
+    r = requests.get(url, headers)
     return r.json()
 
 

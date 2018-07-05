@@ -1,0 +1,131 @@
+[
+    {
+        "criterio": "DespesaItem",
+        "data_avaliacao": 1530108883.631897,
+        "encontrado": true,
+        "municipio": "Fagundes",
+        "pontuacao": 50,
+        "quantidade_itens": 8
+    },
+    {
+        "criterio": "LeisItem",
+        "data_avaliacao": 1530108883.631897,
+        "encontrado": false,
+        "municipio": "Fagundes",
+        "pontuacao": 0,
+        "quantidade_itens": 3
+    },
+    {
+        "criterio": "ConvenioItem",
+        "data_avaliacao": 1530108883.631897,
+        "encontrado": false,
+        "municipio": "Fagundes",
+        "pontuacao": 0,
+        "quantidade_itens": 10
+    },
+    {
+        "criterio": "LicitacaoItem",
+        "data_avaliacao": 1530108883.631897,
+        "encontrado": false,
+        "municipio": "Fagundes",
+        "pontuacao": 0,
+        "quantidade_itens": 16
+    },
+    {
+        "criterio": "ReceitaOrcamentariaItem",
+        "data_avaliacao": 1530108883.631897,
+        "encontrado": true,
+        "municipio": "Fagundes",
+        "pontuacao": 30,
+        "quantidade_itens": 3
+    },
+    {
+        "criterio": "ContratoItem",
+        "data_avaliacao": 1530108883.631897,
+        "encontrado": false,
+        "municipio": "Fagundes",
+        "pontuacao": 0,
+        "quantidade_itens": 8
+    },
+    {
+        "criterio": "ReceitaExtraOrcamentariaItem",
+        "data_avaliacao": 1530108883.631897,
+        "encontrado": false,
+        "municipio": "Fagundes",
+        "pontuacao": 0,
+        "quantidade_itens": 3
+    },
+    {
+        "criterio": "DespesaExtraOrcamentariaItem",
+        "data_avaliacao": 1530108883.631897,
+        "encontrado": false,
+        "municipio": "Fagundes",
+        "pontuacao": 0,
+        "quantidade_itens": 2
+    },
+    {
+        "criterio": "QuadroPessoalItem",
+        "data_avaliacao": 1530020636.594848,
+        "encontrado": false,
+        "municipio": "Fagundes",
+        "pontuacao": 0,
+        "quantidade_itens": 5
+    },
+    {
+        "criterio": "DespesaOrcamentariaItem",
+        "data_avaliacao": 1530020636.594848,
+        "encontrado": false,
+        "municipio": "Fagundes",
+        "pontuacao": 0,
+        "quantidade_itens": 23
+    },
+    {
+        "criterio": "ConvenioItem",
+        "data_avaliacao": 1530020636.594848,
+        "encontrado": false,
+        "municipio": "Fagundes",
+        "pontuacao": 0,
+        "quantidade_itens": 10
+    },
+    {
+        "criterio": "LicitacaoItem",
+        "data_avaliacao": 1530020636.594848,
+        "encontrado": false,
+        "municipio": "Fagundes",
+        "pontuacao": 0,
+        "quantidade_itens": 16
+    },
+    {
+        "criterio": "ReceitaOrcamentariaItem",
+        "data_avaliacao": 1530108883.631897,
+        "encontrado": false,
+        "municipio": "Fagundes",
+        "pontuacao": 0,
+        "quantidade_itens": 6
+    },
+    {
+        "criterio": "ReceitaOrcamentariaItem",
+        "data_avaliacao": 1530020636.594848,
+        "encontrado": false,
+        "municipio": "Fagundes",
+        "pontuacao": 0,
+        "quantidade_itens": 9
+    },
+
+    {
+        "criterio": "ReceitaExtraOrcamentariaItem",
+        "data_avaliacao": 1530020636.594848,
+        "encontrado": false,
+        "municipio": "Fagundes",
+        "pontuacao": 0,
+        "quantidade_itens": 3
+    },
+    {
+        "criterio": "ContratoItem",
+        "data_avaliacao": 1530020636.594848,
+        "encontrado": false,
+        "municipio": "Fagundes",
+        "pontuacao": 0,
+        "quantidade_itens": 8
+    }
+]

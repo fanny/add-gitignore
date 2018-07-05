@@ -1,1 +1,24 @@
-{"source": "dist\ndist-*\ncabal-dev\n*.o\n*.hi\n*.chi\n*.chs.h\n*.dyn_o\n*.dyn_hi\n.hpc\n.hsenv\n.cabal-sandbox/\ncabal.sandbox.config\n*.prof\n*.aux\n*.hp\n*.eventlog\n.stack-work/\ncabal.project.local\ncabal.project.local~\n.HTF/\n.ghc.environment.*\n", "name": "Haskell"}
+{"source": "dist
+        \ndist-*
+        \ncabal-dev
+        \n*.o
+        \n*.hi
+        \n*.chi
+        \n*.chs.h
+        \n*.dyn_o
+        \n*.dyn_hi
+        \n.hpc
+        \n.hsenv
+        \n.cabal-sandbox/
+        \ncabal.sandbox.config
+        \n*.prof
+        \n*.aux
+        \n*.hp
+        \n*.eventlog
+        \n.stack-work/
+        \ncabal.project.local
+        \ncabal.project.local~
+        \n.HTF/
+        \n.ghc.environment.*
+        \n",
+"name": "Haskell"}
