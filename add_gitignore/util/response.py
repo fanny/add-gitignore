@@ -7,5 +7,4 @@ def response_sucess():
 
 def response_error(lang):
     print "The %s language specified is not writted because is not available " \
-          "check more in: add_gitignore.py --help" %lang
-
+          "check more in: add_gitignore.py --help" % lang

@@ -31,8 +31,3 @@ def _get_template_by_language(language):
     url = '{base_url}/{lang}'.format(base_url=SEARCH_URL, lang=language)
     r = requests.get(url, HEADER)
     return r.json()
-
-
-
-
-

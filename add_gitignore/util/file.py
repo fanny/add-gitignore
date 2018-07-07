@@ -13,7 +13,3 @@ def write_file(data):
     with open(FILE_NAME, 'a') as f:
         if not (data in read_file()):
             f.write(data)
-
-
-
-
