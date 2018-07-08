@@ -11,9 +11,10 @@ def create_gitignore(languages):
     size = len(languages)
     choices = get_all_templates()
     index = 0
-    while index < size-1 and languages[index] in choices:
+    while index <= size-1 and string.capwords(languages[index]) in choices:
         data = _get_template_by_language(languages[index])
         write_file(data['source'])
+        index += 1
 
     if index == size:
         response_sucess()
