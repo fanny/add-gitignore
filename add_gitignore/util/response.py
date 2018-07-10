@@ -1,15 +1,14 @@
 # -*- coding: utf-8 -*-
 
 
-def response_sucess():
+def response_sucess(languages):
     """Creates a sucess response that indicates the gitignore is generated
     """
-    print "the gitignore template is generated"
+    print "Added .gitignore for {languages}".format(languages=languages)
 
 
-def response_error(lang):
+def response_error():
     """Creates a error response that indicates the language was not writted
     :param lang: the languages was not be writted in gitignore file
     """
-    print "The %s language specified is not writted because is not available " \
-          "check more in: add_gitignore.py --help" % lang
+    print "The language specified is not writted because is not available check more in: add_gitignore.py --help"
