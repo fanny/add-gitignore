@@ -3,7 +3,7 @@ import add_gitignore
 
 setup(
     name="add_gitignore",
-    version="0.9.0",
+    version="1.0.0",
     author="fanny vieira",
     author_email="fannyvieira082@gmail.com",
     packages=find_packages(),
