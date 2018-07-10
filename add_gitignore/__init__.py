@@ -8,7 +8,7 @@ def get_parser(choices):
     parser.add_argument("-v", "--view", help='view languages available', action='store_true')
     parser.add_argument("-l", "--language", nargs='+', help='Get the language gitignore '
                                                             'template specified:\n%s'
-                                                            % (textwrap.dedent('\n'.join(choices))))
+                                                            % (textwrap.dedent(choices)))
     return parser
 
 
