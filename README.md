@@ -10,10 +10,10 @@ You'll want to make sure you have Python 2.7 installed on your computer. Then, s
 
 ## Usage
 
-### Displays a list of all of the currently support gitignore.io templates.
+Displays a list of all of the currently support gitignore.io templates.
 * `add-gitignore -v`
 
-### Attaches the Programming Language settings to your .gitignore projects.
+Attaches the Programming Language settings to your .gitignore projects.
 * `add-gitignore -l [languages]`
 
 This project is based on: https://github.com/TejasQ/add-gitignore
