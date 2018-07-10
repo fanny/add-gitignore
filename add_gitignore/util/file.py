@@ -13,13 +13,9 @@ def read_file():
 
 
 def write_file(data):
-    """Write in gitignore file, using append mode,
-    namely, whenever new information
-    is passed is inserted at the end,
-    if the information already exists
-    in the file will not be inserted.
+    """Write in gitignore file
     :param data: the data to be insert in gitignore file
     """
-    with open(FILE_NAME, 'a') as f:
+    with open(FILE_NAME, 'w') as f:
         if not (data in read_file()):
             f.write(data)
