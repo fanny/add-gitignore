@@ -19,5 +19,8 @@ setup(
         "License :: OSI Approved :: MIT License",
         "Operating System :: OS Independent",
     ),
+    install_requires=[
+        'requests',
+    ],
     description="Generate Gitignore rules basing on GitHub's templates collection."
 )
