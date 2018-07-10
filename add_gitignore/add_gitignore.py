@@ -1,34 +1,30 @@
 # -*- coding: utf-8 -*-
 
 import requests
-import string
 from util.file import *
 from util.request import *
 from util.response import *
 
 
 def create_gitignore(languages):
-    size = len(languages)
     choices = get_all_templates()
-    index = 0
-    while index <= size-1 and string.capwords(languages[index]) in choices:
-        data = _get_template_by_language(languages[index])
-        write_file(data['source'])
-        index += 1
-
-    if index == size:
-        response_sucess()
+    languages = ','.join([language.lower() for language in languages
+                          if language.lower() in choices])
+    if languages:
+        data = _get_template_by_language(languages)
+        write_file(data)
+        response_sucess(languages)
     else:
-        response_error(languages[index])
+        response_error()
 
 
 def get_all_templates():
-    r = requests.get(SEARCH_URL, HEADER)
-    return r.json()
+    url = '{base_url}/list'.format(base_url=BASE_URL)
+    r = requests.get(url)
+    return r.text
 
 
-def _get_template_by_language(language):
-    language = string.capwords(language)
-    url = '{base_url}/{lang}'.format(base_url=SEARCH_URL, lang=language)
-    r = requests.get(url, HEADER)
-    return r.json()
+def _get_template_by_language(languages):
+    url = '{base_url}/{lang}'.format(base_url=BASE_URL, lang=languages)
+    r = requests.get(url)
+    return r.text
